@@ -1,0 +1,34 @@
+name: Drop
+version: v0.3.5
+slug: droposs
+description: Self-hosted open-source game distribution platform
+url: "https://droposs.org/"
+arch:
+  - amd64
+  - aarch64
+full_access: true
+privileged:
+  - SYS_ADMIN
+  - DAC_READ_SEARCH
+apparmor: false
+init: false
+ingress: true
+ingress_port: 3000
+ingress_entry: /
+panel_icon: mdi:water
+ports:
+  3000/tcp: 3000
+ports_description:
+  3000/tcp: Web interface port
+map:
+  - share:rw
+  - addon_config:rw
+  - media:rw
+options:
+  database_url: "postgresql://drop:drop@homeassistant.local:5432/drop"
+  external_url: "http://homeassistant.local:3000"
+  localdisks: ""
+schema:
+  database_url: str
+  external_url: str
+  localdisks: str?

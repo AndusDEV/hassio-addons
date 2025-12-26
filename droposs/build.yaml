@@ -1,0 +1,3 @@
+build_from:
+  aarch64: ghcr.io/drop-oss/drop:v0.3.5
+  amd64: ghcr.io/drop-oss/drop:v0.3.5
