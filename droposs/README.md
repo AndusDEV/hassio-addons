@@ -1,6 +1,9 @@
 # Drop OSS
 Self-hosted open-source game distribution platform (alternative to Steam for DRM-free games)
 
+> [!INFO]
+> Ingress isn't currently working properly, for now access the Web UI through port `3000`
+
 ## Requirements
 - Postgres 15 from [alexbelgium's repository](https://github.com/alexbelgium/hassio-addons)
 - (Optional) External Drive for games
