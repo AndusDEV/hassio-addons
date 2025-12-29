@@ -1,7 +1,7 @@
 # Drop OSS
 Self-hosted open-source game distribution platform (alternative to Steam for DRM-free games)
 
-> [!INFO]
+> [!NOTE]
 > Ingress isn't currently working properly, for now access the Web UI through port `3000`
 
 ## Requirements
