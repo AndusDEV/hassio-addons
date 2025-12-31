@@ -12,9 +12,6 @@ privileged:
   - DAC_READ_SEARCH
 apparmor: false
 init: false
-ingress: true
-ingress_port: 3000
-ingress_entry: /
 panel_icon: mdi:water
 ports:
   3000/tcp: 3000
